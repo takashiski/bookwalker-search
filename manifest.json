@@ -1,0 +1,12 @@
+{
+  "name":"bookwalker search",
+  "description":"add search on bookwalker to right click menu",
+  "version":"0.1",
+  "manifest_version":3,
+  "background":{
+    "service_worker":"event.js"
+  },
+  "permissions":[
+    "contextMenus"
+  ]
+}
